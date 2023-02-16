@@ -31,7 +31,7 @@ class BankAccount:
             self.acc_balance = self.acc_balance-amount
             print(f"Transaction completed. Current Balance: INR {self.acc_balance}")
         else:
-            print("Invalid amount transaction aborted")
+            print("Invalid amount Transaction aborted")
 
     def payment(self,other):
         amount = int(input("Enter the payment amount"))
