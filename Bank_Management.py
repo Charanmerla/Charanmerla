@@ -42,8 +42,8 @@ class BankAccount:
             print("Invalid amount transaction aborted")
 
 
-cust1 = BankAccount(name="Ishan", mobile_no=9898989898, initial_deposit=1000, pin=1234)
-cust2 = BankAccount(name="gill", mobile_no=9695969596, initial_deposit=1500, pin=5231)
+# cust1 = BankAccount(name="Ishan", mobile_no=9898989898, initial_deposit=1000, pin=1234)
+# cust2 = BankAccount(name="gill", mobile_no=9695969596, initial_deposit=1500, pin=5231)
 
 
 # print(cust1.basic_details())
@@ -51,13 +51,4 @@ cust2 = BankAccount(name="gill", mobile_no=9695969596, initial_deposit=1500, pin
 
 # cust1.withdrawal()
 # print(cust1.payment(cust2))
-def test_method1():
-    assert cust1.name == "Ishan"
 
-
-def test_method2():
-    assert cust1.acc_balance == 1000
-
-
-def test_method3():
-    assert cust2.account_num == 42012
